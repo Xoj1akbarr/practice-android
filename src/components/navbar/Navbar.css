@@ -1,0 +1,46 @@
+.Navbar {
+    padding-left: 11%;
+    padding-right: 11%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.Navbar .Navbar-li {
+    display: flex;
+    list-style: none;
+    gap: 100px;
+}
+
+.Navbar-li :hover {
+    border-bottom: 2px solid black;
+}
+
+.search-icon {
+    cursor: pointer;
+}
+
+.search-icon :hover {
+    color: gray;
+}
+
+.btn {
+   width: 150px;
+   height: 40px;
+   border-radius: 20px; 
+   color: white;
+   transition: 1s;
+   cursor: pointer;
+   background: black;
+   font-weight: 600;
+}
+
+.btn:hover {
+    color: black;
+    background: whitesmoke;
+    transition: 1s;
+}
+
